@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  background-color: #dfe9ff;
 }
 
 /* Make content area fill the entire browser window */
@@ -21,3 +22,23 @@ html,
 .title {
   font-size: 3rem;
 }
+
+.reset-button {
+  background-color: #4238cc; /* Cor de fundo verde */
+  border: none; /* Remover borda */
+  color: white; /* Cor do texto branca */
+  padding: 10px 27px; /* Espaçamento interno */
+  text-align: center; /* Alinhar o texto ao centro */
+  text-decoration: none; /* Remover sublinhado */
+  display: inline-block; /* Exibição em linha */
+  font-size: 14px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem */
+  cursor: pointer; /* Cursor de ponteiro */
+  border-radius: 12px; /* Bordas arredondadas */
+  transition: background-color 0.3s ease; /* Transição para efeito hover */
+}
+
+.reset-button:hover {
+  background-color: #653adb; /* Cor de fundo no hover */
+}
+
